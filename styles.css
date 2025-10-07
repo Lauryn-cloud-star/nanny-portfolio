@@ -350,6 +350,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 0.8rem;
     margin-top: 1rem;
+    min-height: 120px;
 }
 
 .work-images img {
@@ -359,6 +360,8 @@ body {
     border-radius: 8px;
     transition: transform 0.3s ease;
     border: 2px solid #e9ecef;
+    display: block;
+    background-color: #f8f9fa;
 }
 
 .work-images img:hover {
