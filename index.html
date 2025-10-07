@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Johnson - Professional Nanny Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Sarah Johnson</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Bio -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img id="profile-image" src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Sarah Johnson - Professional Nanny">
+                        <div class="image-upload-overlay">
+                            <input type="file" id="image-upload" accept="image/*" style="display: none;">
+                            <label for="image-upload" class="upload-btn">
+                                <i class="fas fa-camera"></i>
+                                <span>Upload Photo</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1>Sarah Johnson</h1>
+                    <h2>Professional Nanny & Childcare Specialist</h2>
+                    <p class="bio-text">
+                        With over 8 years of experience in childcare, I am passionate about providing a safe, nurturing, and educational environment for children. I specialize in infant care, toddler development, and school-age children, bringing creativity, patience, and love to every family I work with.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3>8+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Families Served</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#experience" class="btn btn-secondary">View My Work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">My Experience & Work</h2>
+            <p class="section-subtitle">A glimpse into my professional journey and the families I've had the privilege to care for</p>
+            
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Senior Nanny - The Williams Family</h3>
+                        <span class="timeline-date">2020 - Present</span>
+                        <p>Caring for three children (ages 2, 5, and 8) with focus on educational activities, meal preparation, and transportation to activities.</p>
+                        <div class="work-images">
+                            <img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Educational activities with children">
+                            <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Meal preparation with kids">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Infant Care Specialist - The Martinez Family</h3>
+                        <span class="timeline-date">2018 - 2020</span>
+                        <p>Provided specialized care for premature twins, including feeding schedules, developmental milestones, and parent education.</p>
+                        <div class="work-images">
+                            <img src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Infant care">
+                            <img src="https://images.unsplash.com/photo-1545558014-8692077e9b5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Twin care">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Live-in Nanny - The Thompson Family</h3>
+                        <span class="timeline-date">2016 - 2018</span>
+                        <p>Full-time care for two school-age children, including homework assistance, extracurricular activities, and household management.</p>
+                        <div class="work-images">
+                            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Homework assistance">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Outdoor activities">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="skills-section">
+                <h3>My Specialties</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fas fa-baby"></i>
+                        <h4>Infant Care</h4>
+                        <p>Specialized training in newborn and infant care, including feeding, sleep training, and developmental milestones.</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Educational Activities</h4>
+                        <p>Creating age-appropriate learning experiences that promote cognitive and social development.</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-heart"></i>
+                        <h4>Emotional Support</h4>
+                        <p>Providing a nurturing environment that builds confidence and emotional intelligence.</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-utensils"></i>
+                        <h4>Meal Preparation</h4>
+                        <p>Preparing nutritious, balanced meals and snacks that children love to eat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Families Say</h2>
+            <p class="section-subtitle">Hear from the families I've had the pleasure of working with</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Sarah has been an absolute blessing to our family. Her patience, creativity, and genuine love for children shine through in everything she does. Our kids absolutely adore her!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Jennifer Williams">
+                        <div class="author-info">
+                            <h4>Jennifer Williams</h4>
+                            <span>Mother of 3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"When we had our twins prematurely, Sarah's expertise in infant care was invaluable. She helped us navigate those challenging early months with confidence and care."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Maria Martinez">
+                        <div class="author-info">
+                            <h4>Maria Martinez</h4>
+                            <span>Mother of Twins</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Sarah's educational approach has helped our children excel in school. She makes learning fun and engaging while maintaining discipline and structure."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="David Thompson">
+                        <div class="author-info">
+                            <h4>David Thompson</h4>
+                            <span>Father of 2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Ready to discuss your family's childcare needs? I'd love to hear from you!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+256 700 123 456</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>sarah.johnson@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Kampala, Uganda</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Availability</h4>
+                            <p>Monday - Friday: 7 AM - 6 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Select Service Needed</option>
+                            <option value="full-time">Full-Time Nanny</option>
+                            <option value="part-time">Part-Time Nanny</option>
+                            <option value="babysitting">Occasional Babysitting</option>
+                            <option value="consultation">Childcare Consultation</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tell me about your family and childcare needs" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sarah Johnson</h3>
+                    <p>Professional Nanny & Childcare Specialist</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Phone: +256 700 123 456</p>
+                    <p>Email: sarah.johnson@email.com</p>
+                    <p>Location: Kampala, Uganda</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sarah Johnson. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
